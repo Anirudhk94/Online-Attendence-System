@@ -1,0 +1,224 @@
+html, body {
+    background: none repeat scroll 0 0 #fff;
+}
+img {
+    border: 0 none;
+}
+ul {
+    padding: 0 15px;
+}
+ul li {
+    padding: 5px;
+}
+body, input, textarea, button {
+    color: #124561;
+    font: 12px/16px Verdana, Geneva, sans-serif;
+    margin:0;
+}
+p {
+    margin: 0;
+    padding: 5px 0;
+}
+a {
+    color: #3399cc;
+    text-decoration: none;
+}
+a:hover {
+    color: #006699;
+}
+a:active {
+    color: #006699;
+}
+pre, code {
+    background: none repeat scroll 0 0 #FEFEEC;
+}
+img {
+    max-width: 100%;
+
+}
+.clearfix {
+    clear: both;
+	height:10px;
+}
+.main {
+    margin: 0 auto;
+    width: 980px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.logo {
+}
+
+.header {
+    background: url("../images/bg.png") repeat-x scroll 0 0 #2E64FE;
+    border-radius: 5px 5px 5px 5px;
+    color: #FF4719;
+    margin: 0 0 15px;
+    padding: 13px;
+}
+
+.menu{ font-weight:bold;
+ }
+
+.menu a{ color:#fff; }
+
+.menu a:hover{ color:#ddd; }
+
+.footer {
+    background: none repeat scroll 0 0 #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 15px 10px;
+	margin:15px 0 0 0;
+	text-align:  center;
+	background-position: bottom;
+	bottom: 0;
+}
+
+*::-moz-selection {
+    background: none repeat scroll 0 0 #333333;
+    color: #FFFFFF;
+}
+
+.inner {
+    display: table;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.sidebar{ width: 180px; background:#f7f7f7; border-radius:0 0 5px 5px; border:1px solid #ccc; margin:0 15px 0 0 }
+
+.sidebar h3 {
+    background: url("../images/bg.png") repeat scroll 0 0 #339933;
+    border-top: 1px solid #336633;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0;
+    padding: 8px;
+}
+
+.glossymenu {
+    margin: 0 0px 20px 0;
+    padding: 0;
+}
+
+.glossymenu ul li{ padding:5px; list-style:inside; list-style-type:square;}
+
+.inner-content {
+    background: url("../images/section_divider.png") no-repeat scroll 0 60px #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.2);
+    display: table-cell;
+    padding: 10px 20px;
+    width: 980px;
+   
+}
+
+.main-title{ font-size:22px; font-weight:normal; color:#333; padding:10px 10px 0px 0; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; }
+
+.login-top{ background:#f7f7f7; border-radius:0 0 5px 5px; padding:5px 10px; }
+
+h1, h2 {
+    color: ##2E64FE;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 5px 0 20px;
+    padding: 10px;
+}
+h3 {
+    color: #FF9900;
+    font-family: Trebuchet MS,arial;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 15px 0 10px;
+    padding: 0;
+}
+
+input {
+    border: 0 none;
+    color: #162E3D;
+    float: left;
+    font-size: 1em;
+    margin: 5px 0 0;
+    padding: 8px 10px 7px;
+    width: 294px;
+}
+input:focus {
+    background-position: 0 -69px;
+}
+select {
+    border: 0 none;
+    color: #162E3D;
+    float: left;
+    font-size: 1em;
+    margin: 5px 0 0;
+    padding: 8px 10px 11px;
+    width: 200px;
+}
+select:focus {
+    background-position: 0 -69px;
+}
+textarea {
+    border: 0 none;
+    color: #303030;
+    font-weight: normal;
+    height: 92px;
+    margin: 0;
+    overflow: auto;
+    padding: 10px;
+    width: 392px;
+}
+textarea:focus {
+    background-position: 0 -112px;
+}
+
+.header-top {
+    background: url("../images/a.png") no-repeat scroll 0 0 #FFFFFF;
+    display: table;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    margin: -5px 0 0 0;
+   	background-position: center;
+}
+
+.login-top {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border-radius: 0 0 5px 5px;
+    margin: 0 10px 0 0;
+    padding: 7px 10px;
+}
+
+table {
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #eee;
+    
+}
+label{ 
+	float:left; clear:none; display:block; padding: 2px 1em 0 0; }
+tr {
+    
+}
+td {
+    border: 1px solid #EEEEEE;
+    	text-align: center;
+    	
+
+}
+td input[type="radio"]{
+	width: 30px; 
+}
+
+th {
+	
+    background: url("../images/bg.png") repeat scroll 0 0 #339933;
+    border: 1px solid #666666;
+    color: #FFFFFF;
+    text-align: center;
+
+}
